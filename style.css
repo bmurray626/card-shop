@@ -3,15 +3,20 @@ h1 {
 }
 
 body {
-    background: rgb(88, 160, 160);
+    background: rgb(237,237,237);
 }
 
 .header-photo {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 85%;
+    width: 65%;
     border-radius: 5%;
+}
+.carousel-item {
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
 }
 
 .tcg-tiles {
