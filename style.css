@@ -2,10 +2,6 @@ h1 {
     text-align: center;
 }
 
-body {
-    background: rgb(237,237,237);
-}
-
 .header-photo {
     display: block;
     margin-left: auto;
@@ -36,4 +32,18 @@ body {
 .tcg-text {
     text-align: center;
     margin: 2%;
+}
+
+.booster-packs {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.booster-prices {
+    text-align: center;
+    font-size: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
