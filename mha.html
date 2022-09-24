@@ -13,19 +13,30 @@
       integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="style.css" />
     <title>OCS:MHA</title>
   </head>
   <body>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarTogglerDemo03"
+        aria-controls="navbarTogglerDemo03"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
         <span class="navbar-toggler-icon"></span>
       </button>
       <a class="navbar-brand" href="index.html">OCS</a>
       <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
         <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
           <li class="nav-item active">
-            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="index.html"
+              >Home <span class="sr-only">(current)</span></a
+            >
           </li>
           <li class="nav-item">
             <a class="nav-link pokemon" href="pokemon.html">Pokemon</a>
@@ -34,18 +45,171 @@
             <a class="nav-link yugioh" href="yugioh.html">Yu-Gi-Oh</a>
           </li>
           <li class="nav-item">
-              <a class="nav-link Magic" href="magic.html">Magic</a>
+            <a class="nav-link Magic" href="magic.html">Magic</a>
           </li>
           <li class="nav-item">
-              <a class="nav-link mha" href="mha.html">My Hero Academia</a>
+            <a class="nav-link mha" href="mha.html">My Hero Academia</a>
           </li>
           <li class="nav-item">
-              <a class="nav-link mha" href="contactus.html">Contact Us</a>
-          </li>  
+            <a class="nav-link mha" href="contactus.html">Contact Us</a>
+          </li>
         </ul>
       </div>
-  </nav>
+    </nav>
     <h1>My Hero Academia</h1>
+    <!-- Photo Carousel -->
+    <div
+      id="carouselExampleIndicators"
+      class="carousel slide"
+      data-ride="carousel"
+    >
+      <ol class="carousel-indicators">
+        <li
+          data-target="#carouselExampleIndicators"
+          data-slide-to="0"
+          class="active"
+        ></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            class="d-block w-100"
+            src="Pokemon-Lost-Origin.jpg"
+            alt="First slide"
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            class="d-block w-100"
+            src="Pokemon-Go-TCG.jpg"
+            alt="Second slide"
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            class="d-block w-100"
+            src="Pokemon-Astral-Radiance.jpg"
+            alt="Third slide"
+          />
+        </div>
+      </div>
+      <a
+        class="carousel-control-prev"
+        href="#carouselExampleIndicators"
+        role="button"
+        data-slide="prev"
+        style="background-color: black"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a
+        class="carousel-control-next"
+        href="#carouselExampleIndicators"
+        role="button"
+        data-slide="next"
+        style="background-color: black"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+    <br />
+    <!-- Set #1 -->
+    <div class="tcg-sets">
+      <h2>Set Name</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi modi
+        libero culpa corrupti exercitationem mollitia quibusdam harum, autem
+        minus, commodi minima voluptate nam id deserunt porro, assumenda
+        eligendi nobis dolorum.
+      </p>
+      <table>
+        <tr>
+          <td class="booster-packs">
+            <img src="LO-Booster-Enamorus.jpg" alt="" />
+          </td>
+          <td class="booster-packs">
+            <img src="LO-Booster-Hisuian-Zoroark.jpg" alt="" />
+          </td>
+          <td class="booster-packs">
+            <img src="LO-Booster-Origin-Forme-Giratina.jpg" alt="" />
+          </td>
+          <td class="booster-packs">
+            <img src="LO-Booster-Radiant-Gardevoir.jpg" alt="" />
+          </td>
+        </tr>
+        <tr>
+          <td class="booster-prices">$5.00 (includes taxes)</td>
+          <td class="booster-prices">$5.00 (includes taxes)</td>
+          <td class="booster-prices">$5.00 (includes taxes)</td>
+          <td class="booster-prices">$5.00 (includes taxes)</td>
+        </tr>
+      </table>
+    </div>
+    <br />
+    <!-- Set #2 -->
+    <div class="tcg-sets">
+      <h2>Set Name</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus et a
+        facere architecto suscipit officiis, voluptatibus id ullam quisquam nisi
+        animi, eaque recusandae, atque unde laudantium nemo aspernatur mollitia
+        numquam.
+      </p>
+      <table>
+        <tr>
+          <td class="booster-packs">
+            <img src="GO-Booster.jpg" alt="" />
+          </td>
+        </tr>
+        <tr>
+          <td class="booster-prices">$5.00 (includes taxes)</td>
+        </tr>
+      </table>
+    </div>
+    <br />
+    <!-- Set #3 -->
+    <div class="tcg-sets">
+      <h2>Set Name</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius cum vel
+        modi temporibus expedita, sunt sed recusandae, quis culpa voluptatibus
+        voluptatem quae illum autem nesciunt porro esse! Voluptate, perspiciatis
+        quis.
+      </p>
+      <table>
+        <tr>
+          <td class="booster-packs">
+            <img src="AR-Booster-Decidueye.jpg" alt="" />
+          </td>
+          <td class="booster-packs">
+            <img src="AR-Booster-Origin-Dialga.jpg" alt="" />
+          </td>
+          <td class="booster-packs">
+            <img src="AR-Booster-Samurott.jpg" alt="" />
+          </td>
+          <td class="booster-packs">
+            <img src="AR-Booster-Typhloshion.jpg" alt="" />
+          </td>
+        </tr>
+        <tr>
+          <td class="booster-prices">$5.00 (includes taxes)</td>
+          <td class="booster-prices">$5.00 (includes taxes)</td>
+          <td class="booster-prices">$5.00 (includes taxes)</td>
+          <td class="booster-prices">$5.00 (includes taxes)</td>
+        </tr>
+      </table>
+    </div>
+    <br />
+    <!-- Pack Dislaimer -->
+    <h4>Pack Disclaimer</h4>
+    <p>
+      Pack art is not an indication of the cards that are in the packs, they are
+      simply for collectors purposes. Pulls are at random.
+    </p>
     <!-- JS Script -->
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
